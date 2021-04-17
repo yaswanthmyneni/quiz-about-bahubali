@@ -30,7 +30,7 @@ function play(question, answer) {
 var qnaList = [
   {
     question: 'When did Bahubali Movie released? ',
-    answer: '2018',
+    answer: '2015',
   },
   {
     question: 'Hero name in Bahubali Movie? ',
