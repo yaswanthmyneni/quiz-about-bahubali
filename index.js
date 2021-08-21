@@ -40,6 +40,14 @@ var qnaList = [
     question: 'Heroine name in Bahubali Movie? ',
     answer: 'anushka',
   },
+  {
+    question: 'who is the director of the movie Bahubali? ',
+    answer: 'ssrajamouli',
+  },
+  {
+    question: 'villain name in Bahubali Movie? ',
+    answer: 'rana',
+  },
 ];
 
 for (var i = 0; i < qnaList.length; i++){
@@ -48,9 +56,9 @@ for (var i = 0; i < qnaList.length; i++){
 }
 
 if(score === qnaList.length) {
-  console.log(green('Congratulations, you won the quiz!'));
+  console.log(green(`Congratulations, you won the quiz! Your TOTAL SCORE is ${score}`));
 } else {
-  console.log(red('Sorry, try again!'));
+  console.log(red(`Sorry, try again! Your TOTAL SCORE is ${score}`));
 }
 
 
