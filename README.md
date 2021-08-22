@@ -1,4 +1,4 @@
-# quiz About Bahubali Movie
+# Quiz About Bahubali Movie
 This is about a quiz about Bahubali Movie, to see how much we know about the movie.
 
 ## Built with:
